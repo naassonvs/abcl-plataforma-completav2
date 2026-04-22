@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ════════════════════════════════════════════════════════
+       🔧 METADADOS — atualize a cada edição
+       ════════════════════════════════════════════════════════ -->
+  <title>13º Acampamento Bíblico — ABCL 2026</title>
+  <meta name="description"    content="13º Acampamento Bíblico da Mocidade da Casa de Oração — 4 a 7 de Junho de 2026, Sítio Recanto Del Rey, Queluzito/MG." />
+  <meta name="author"         content="Mocidade da Casa de Oração — Conselheiro Lafaiete" />
+  <meta name="theme-color"    content="#0A1610" />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="13º Acampamento Bíblico — ABCL 2026" />
+  <meta property="og:description" content="Assim que já não sois estrangeiros, nem forasteiros, mas concidadãos dos santos, e da família de Deus. — Ef 2:19" />
+  <meta property="og:type"        content="website" />
+  <meta property="og:image"       content="assets/logo-abcl.svg" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/abcl.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+  <!--
+  ════════════════════════════════════════════════════════════
+  🔧 DADOS DA EDIÇÃO ATUAL — edite aqui a cada novo acampamento
+  ════════════════════════════════════════════════════════════
+
+    Edição:      13º
+    Ano:         2026
+    Data:        4 a 7 de Junho de 2026
+    Local:       Sítio Recanto Del Rey — Queluzito/MG
+    Idade:       A partir de 14 anos
+    Estadia:     R$ 185,00
+    Diária:      R$ 60,00 (*condições especiais)
+    Inscrições:  A partir de 1º de Junho de 2026
+    WhatsApp:    (31) 98826-2599
+    Forms:       https://forms.gle/VAdsxWVp7fedCzD76
+
+    Preletores:
+      - Paulo Silas       (Poços de Caldas/MG)
+      - Evaldo Soares     (Córrego Fundo/MG)
+
+    Temas:
+      1. Amar a Família de Deus
+         Um estudo sobre a Igreja Local — Composição, Propósito e Futuro
+
+      2. A Relativização da Verdade
+         Estudos sobre os tempos em que vivemos
+
+    Versículo:   Efésios 2:19
+
+    Contatos:    Haniel Soares · Naasson Vieira · Mauri Diniz
+
+  ════════════════════════════════════════════════════════════ -->
+
+
+  <!-- ══ NAV ══════════════════════════════════════════════════ -->
+  <nav id="nav">
+    <a href="#" class="nav-brand">
+      <img src="assets/logo-abcl.svg" alt="Logo ABCL" class="nav-logo-img" width="44" height="44" />
+      <div class="nav-logo-text">
+        ABCL
+        <small>Acampamento Bíblico · Cons. Lafaiete</small>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#temas">Temas</a></li>
+      <li><a href="#local">Local</a></li>
+      <li><a href="#inscricao">Inscrição</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+
+    <a href="#inscricao" class="btn btn-solid" style="font-size:0.73rem; padding:0.55rem 1.2rem;">
+      Inscrever-se
+    </a>
+
+    <button class="hamburger" aria-label="Abrir menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ══ MENU MOBILE ══════════════════════════════════════════ -->
+  <div id="menu-mobile" role="dialog" aria-label="Menu de navegação">
+    <a href="#temas"     onclick="toggleMenu()">Temas</a>
+    <a href="#local"     onclick="toggleMenu()">Local</a>
+    <a href="#inscricao" onclick="toggleMenu()">Inscrição</a>
+    <a href="#faq"       onclick="toggleMenu()">FAQ</a>
+    <a href="#inscricao" onclick="toggleMenu()" class="btn btn-solid">Inscrever-se</a>
+  </div>
+
+
+  <!-- ══ HERO ═════════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+
+    <!-- Montanhas decorativas (SVG inline — leve, sem request extra) -->
+    <svg class="hero-mountains" viewBox="0 0 1440 360" preserveAspectRatio="none" aria-hidden="true">
+      <polygon points="0,360 0,220 180,110 360,190 540,80 720,170 900,60 1080,160 1260,100 1440,180 1440,360" fill="rgba(45,106,79,0.30)"/>
+      <polygon points="0,360 0,270 200,200 400,250 600,175 800,240 1000,180 1200,230 1440,200 1440,360" fill="rgba(45,106,79,0.18)"/>
+      <polygon points="0,360 0,320 300,290 600,315 900,285 1200,310 1440,295 1440,360" fill="rgba(30,75,52,0.55)"/>
+    </svg>
+
+    <div class="hero-content">
+      <!-- Logo principal -->
+      <img
+        src="assets/logo-abcl.svg"
+        alt="Logo ABCL — Acampamento Bíblico Conselheiro Lafaiete"
+        class="hero-logo"
+        width="100"
+      />
+
+      <span class="hero-badge">Mocidade da Casa de Oração — Conselheiro Lafaiete/MG</span>
+
+      <span class="hero-num">13º</span>
+      <h1 class="hero-title">Acampamento Bíblico</h1>
+
+      <blockquote class="hero-verse">
+        "Assim que já não sois estrangeiros, nem forasteiros, mas concidadãos
+        dos santos, e da família de Deus."
+        <cite>— Efésios 2:19</cite>
+      </blockquote>
+
+      <div class="hero-btns">
+        <a href="#inscricao" class="btn btn-solid">Quero me inscrever</a>
+        <a href="#temas"     class="btn btn-ghost">Ver temas</a>
+      </div>
+
+      <div class="hero-chips">
+        <span class="chip">
+          <!-- ícone calendário -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/>
+            <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>
+          </svg>
+          4 a 7 de Junho de 2026
+        </span>
+        <span class="chip">
+          <!-- ícone pin -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          Queluzito — MG
+        </span>
+        <span class="chip">
+          <!-- ícone pessoa -->
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+          </svg>
+          A partir de 14 anos
+        </span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ FAIXA DE INFO ════════════════════════════════════════ -->
+  <div class="faixa">
+    <div class="faixa-grid container">
+      <div class="faixa-item">
+        <div class="fi-label">Inscrições</div>
+        <div class="fi-value">A partir de 1º/Jun</div>
+      </div>
+      <div class="faixa-item">
+        <div class="fi-label">Estadia</div>
+        <div class="fi-value">R$ 185,00</div>
+      </div>
+      <div class="faixa-item">
+        <div class="fi-label">Diária</div>
+        <div class="fi-value">R$ 60,00 *</div>
+      </div>
+      <div class="faixa-item">
+        <div class="fi-label">WhatsApp</div>
+        <div class="fi-value">(31) 98826-2599</div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ══ TEMAS ═════════════════════════════════════════════════ -->
+  <section class="temas" id="temas">
+    <div class="container">
+      <p class="label reveal">Estudos bíblicos</p>
+      <h2 class="titulo reveal">Temas de 2026</h2>
+      <div class="sep reveal"></div>
+
+      <div class="temas-grid">
+
+        <!-- Tema 1 -->
+        <article class="tema-card reveal">
+          <div class="tema-num">TEMA 01 · PAULO SILAS</div>
+          <h3 class="tema-titulo">Amar a Família de Deus</h3>
+          <p class="tema-sub">Um estudo sobre a Igreja Local — Composição, Propósito e Futuro</p>
+          <p class="corpo" style="font-size:0.88rem;">
+            O que é a Igreja? Para que ela existe? Este estudo nos convida a
+            redescobrir o amor pela comunidade dos santos e o privilégio de
+            pertencer à família de Deus.
+          </p>
+          <div class="tema-pregador">
+            <div class="avatar" aria-hidden="true">PS</div>
+            <div>
+              <div class="pregador-nome">Paulo Silas</div>
+              <div class="pregador-local">Poços de Caldas — MG</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tema 2 -->
+        <article class="tema-card reveal" style="transition-delay:.1s">
+          <div class="tema-num">TEMA 02 · EVALDO SOARES</div>
+          <h3 class="tema-titulo">A Relativização da Verdade</h3>
+          <p class="tema-sub">Estudos sobre os tempos em que vivemos</p>
+          <p class="corpo" style="font-size:0.88rem;">
+            Em um mundo que questiona toda verdade absoluta, como permanecer
+            firme? Um estudo sobre os desafios contemporâneos à fé bíblica e
+            como navegar com discernimento.
+          </p>
+          <div class="tema-pregador">
+            <div class="avatar" aria-hidden="true">ES</div>
+            <div>
+              <div class="pregador-nome">Evaldo Soares</div>
+              <div class="pregador-local">Córrego Fundo — MG</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Versículo destaque -->
+      <div class="verse-block reveal">
+        <blockquote>
+          "Assim que já não sois estrangeiros, nem forasteiros, mas concidadãos
+          dos santos, e da família de Deus."
+          <cite>— Efésios 2:19</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ LOCAL ══════════════════════════════════════════════════ -->
+  <section class="local" id="local">
+    <div class="container">
+      <p class="label reveal">Onde acontece</p>
+      <h2 class="titulo reveal">Local do evento</h2>
+      <div class="sep reveal"></div>
+
+      <div class="local-grid">
+        <ul class="info-list reveal">
+          <li>
+            <div class="info-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>Sítio Recanto Del Rey</strong>
+              <span>Queluzito — MG</span>
+            </div>
+          </li>
+          <li>
+            <div class="info-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/>
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>4 a 7 de Junho de 2026</strong>
+              <span>4 dias de acampamento</span>
+            </div>
+          </li>
+          <li>
+            <div class="info-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>A partir de 14 anos</strong>
+              <span>Sem limite máximo de idade</span>
+            </div>
+          </li>
+          <li>
+            <div class="info-icon" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>Mocidade da Casa de Oração</strong>
+              <span>Rua Cônego João Pio, 60 — Lourdes, Conselheiro Lafaiete/MG</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="mapa reveal">
+          <div class="mapa-grid" aria-hidden="true"></div>
+          <div class="mapa-pin">
+            <div class="pin" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="mapa-nome">
+              Queluzito — MG
+              <small>Sítio Recanto Del Rey</small>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Queluzito+MG"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-ghost"
+              style="font-size:0.7rem; padding:0.5rem 1rem;"
+            >
+              Ver no Google Maps →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ INSCRIÇÃO ══════════════════════════════════════════════ -->
+  <section class="inscricao" id="inscricao">
+    <div class="inscricao-inner">
+      <p class="label reveal">Garanta sua vaga</p>
+      <h2 class="titulo reveal">Inscrições</h2>
+      <div class="sep center reveal"></div>
+      <p class="corpo reveal">Inscrições abertas a partir de 1º de Junho. Vagas limitadas!</p>
+
+      <!-- Countdown -->
+      <div class="countdown reveal" aria-label="Contagem regressiva para o acampamento">
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-d">--</span>
+          <span class="cd-label">Dias</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-h">--</span>
+          <span class="cd-label">Horas</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-m">--</span>
+          <span class="cd-label">Min</span>
+        </div>
+        <div class="cd-unit">
+          <span class="cd-num" id="cd-s">--</span>
+          <span class="cd-label">Seg</span>
+        </div>
+      </div>
+
+      <!-- Preços -->
+      <div class="precos reveal">
+        <div class="preco-card">
+          <div class="preco-tipo">Estadia completa</div>
+          <div class="preco-val"><small>R$</small> 185</div>
+          <div class="preco-obs">4 dias · hospedagem + refeições inclusas</div>
+        </div>
+        <div class="preco-card">
+          <div class="preco-tipo">Diária</div>
+          <div class="preco-val"><small>R$</small> 60<small>*</small></div>
+          <div class="preco-obs">*Condições especiais disponíveis.<br>Consulte pelo WhatsApp.</div>
+        </div>
+      </div>
+
+      <!-- ── CTA Google Forms ── -->
+      <div class="forms-cta reveal">
+        <p>
+          Preencha o formulário oficial de inscrição pelo Google Forms.
+          É rápido e seus dados ficam organizados diretamente com a equipe!
+        </p>
+        <a
+          href="https://forms.gle/VAdsxWVp7fedCzD76"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-forms"
+          onclick="abrirForms(); return false;"
+        >
+          <!-- Ícone Google Forms -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          Preencher Formulário de Inscrição
+        </a>
+      </div>
+
+      <!-- Divisor opcional -->
+      <div class="forms-divider reveal">ou envie seu interesse pelo WhatsApp</div>
+
+      <!-- Formulário rápido → WhatsApp -->
+      <div class="form-wrap reveal">
+        <div class="form-row">
+          <div class="field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Seu nome" autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" placeholder="Ex: 18" min="14" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="tel">WhatsApp</label>
+            <input type="tel" id="tel" placeholder="(31) 99999-9999" autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" placeholder="Sua cidade" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field form-full">
+            <label for="modalidade">Modalidade</label>
+            <select id="modalidade">
+              <option value="">Selecione...</option>
+              <option>Estadia completa — R$ 185,00</option>
+              <option>Diária — R$ 60,00</option>
+              <option>Quero saber sobre condições especiais</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field form-full">
+            <label for="obs">Observações (opcional)</label>
+            <textarea id="obs" rows="2" placeholder="Alergias, dúvidas, necessidades..."></textarea>
+          </div>
+        </div>
+
+        <button
+          class="btn btn-solid"
+          onclick="enviarWhats()"
+          style="width:100%; padding:1rem; font-size:0.82rem; margin-top:0.5rem;"
+        >
+          Enviar interesse via WhatsApp
+        </button>
+
+        <p class="form-note">
+          Ao clicar, você será direcionado ao WhatsApp com seus dados pré-preenchidos.<br>
+          As inscrições serão confirmadas a partir de 1º de Junho de 2026.
+        </p>
+      </div>
+
+      <!-- Botão WhatsApp direto -->
+      <div class="whats-alt">
+        <p>Prefere contato direto?</p>
+        <a
+          href="https://wa.me/5531988262599"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-whats"
+        >
+          <!-- Ícone WhatsApp -->
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          (31) 98826-2599
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ FAQ ════════════════════════════════════════════════════ -->
+  <section class="faq" id="faq">
+    <div class="faq-inner">
+      <p class="label reveal">Dúvidas</p>
+      <h2 class="titulo reveal">Perguntas frequentes</h2>
+      <div class="sep reveal"></div>
+
+      <div class="faq-list reveal">
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Qual é a faixa etária?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            A partir de 14 anos, sem limite máximo de idade.
+            Menores de 18 anos precisam de autorização dos pais ou responsáveis.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Preciso ser da Casa de Oração para participar?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            Não! O acampamento é aberto a jovens de outras igrejas e comunidades.
+            A proposta é celebrar a unidade do corpo de Cristo reunindo irmãos de diferentes locais.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Quando abrem as inscrições?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            As inscrições abrirão a partir de 1º de Junho de 2026.
+            Você pode pré-cadastrar seu interesse pelo formulário acima ou entrar em
+            contato pelo WhatsApp (31) 98826-2599.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Qual a diferença entre estadia e diária?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            A estadia (R$ 185,00) inclui hospedagem pelos 4 dias com todas as refeições.
+            A diária (R$ 60,00) é para quem não ficará hospedado mas quer participar de um dia.
+            Condições especiais disponíveis — consulte a organização pelo WhatsApp.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            O que devo levar?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            Após confirmar a inscrição você receberá a lista completa. Em geral:
+            roupas para 4 dias, agasalho (as noites de Junho são frias!),
+            bíblia, caderno, caneta, tênis e itens de higiene pessoal.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-q" onclick="toggleFaq(this)">
+            Como entrar em contato?
+            <span class="faq-ico" aria-hidden="true"></span>
+          </div>
+          <div class="faq-a">
+            Fale com Haniel Soares, Naasson Vieira ou Mauri Diniz pelo
+            WhatsApp (31) 98826-2599. Nossa equipe terá prazer em responder qualquer dúvida!
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══ FOOTER ═════════════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo-abcl.svg" alt="Logo ABCL" class="footer-logo-img" width="36" />
+        <div class="footer-logo-text">
+          13º Acampamento Bíblico — ABCL
+          <small>Mocidade da Casa de Oração · Conselheiro Lafaiete/MG</small>
+        </div>
+      </div>
+
+      <p class="footer-verse">
+        "Assim que já não sois estrangeiros, nem forasteiros,<br>
+        mas concidadãos dos santos, e da família de Deus." — Ef 2:19
+      </p>
+
+      <p class="footer-copy">
+        © 2026 Mocidade da Casa de Oração · Rua Cônego João Pio, 60, Lourdes — Conselheiro Lafaiete/MG
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
